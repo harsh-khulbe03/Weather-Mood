@@ -1,12 +1,48 @@
-# React + Vite
+# Weather Mood with Weather Integration 🌦️📔
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautiful mood tracking application that combines your daily emotions with real-time weather data, helping you discover patterns between your mood and the weather.
 
-Currently, two official plugins are available:
+## Features ✨
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Daily Mood Tracking** with 5 expressive emoji options
+- **Automatic Weather Data** based on your current location
+- **Three View Modes**:
+  - 📅 Calendar overview
+  - 📝 List of all entries
+  - ✏️ Today's entry form
+- **Dark/Light Mode** toggle
+- **Responsive Design** that works on all devices
+- **Local Storage** to save your entries
 
-## Expanding the ESLint configuration
+## Technologies Used 💻
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Frontend        | APIs           | Libraries       |
+|-----------------|----------------|-----------------|
+| React.js        | OpenWeather API| React Icons     |
+| Tailwind CSS    | Geolocation API| React Hot Toast |
+| JavaScript ES6+ |                | date-fns        |
+
+## Installation 🛠️
+
+1. **Clone the repository**:
+
+```bash
+git clone https://github.com/harsh-khulbe03/Weather-Mood.git
+cd weather-mood
+```
+
+2. **Install dependencies**:
+```bash
+npm install
+```
+
+3. **Set up environment variables**:
+```bash
+Create a .env file
+Add your OpenWeather API key: YOUR_API_KEY
+```
+
+4. **Run the development server**:
+```bash
+npm run dev
+```
